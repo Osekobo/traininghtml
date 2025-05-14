@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<style>
+  .container{
+    background-color: blue;
+    height: 700px;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+  }
+  .nav{
+    display: flex;
+    justify-content: space-between;
+  }
+  .navlist{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+  }
+  .container .nav .navlist li{
+    padding: 10px;
+    color: white;
+  }
+  .container .nav .navlist li a{
+    color: white;
+  }
+  .navlist1{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+  }
+  .container .content{
+    position: relative;
+  }
+  .container .content .content1{
+    color: white;
+    width: 300px;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+  }
+  .container .content .content2 img{
+    width: 300px;
+  }
+  .container .content .content2{
+    position: absolute;
+    right: 100px;
+  }
+  .container .content .content1 button{
+    border-radius: 20px;
+    background-color: grey;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 90px;
+  }
+</style>
+<body>
+
+  <div class="container">
+    <div class="nav">
+      <ul class="navlist">
+        <li><a href="#"><i class="fa-solid fa-bars-staggered"></i></a></li>
+        <li><a href="#"></a>Home</li>
+        <li><a href="#"></a>Service</li>
+        <li><a href="#"></a>About</li>
+      </ul>
+      <ul class="navlist1">
+        <li><a href="#"></a>Contact Us</li>
+      </ul>
+    </div>
+
+
+    <div class="content">
+     <div class="content1">
+      <h1>Simple<br>Web design</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, labore illo ab nobis eius deleniti possimus dignissimos inventore excepturi itaque minima reprehenderit id libero obcaecati.</p>
+      <button>Portfolio</button>
+     </div>
+     <div class="content2">
+      <img src="image2.webp">
+     </div>
+    </div>
+  </div>
+</body>
+</html>

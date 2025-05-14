@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: skyblue;
+      }
+      .container {
+        display: flex;
+        justify-content: space-between;
+      }
+      .container a {
+        text-decoration: none;
+        color: white;
+        margin-left: 30px;
+      }
+      .container .navlist {
+        display: flex;
+      }
+      .container .navlist li {
+        list-style: none;
+      }
+
+      .icon {
+        color: white;
+      }
+      .main {
+        color: white;
+      }
+      .par {
+        display: flex;
+        justify-content: space-around;
+      }
+      .butto {
+        border-radius: 15px;
+        border: none;
+        background-color: aqua;
+        color: white;
+        padding: 5px 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div style="display: flex">
+        <h3 class="icon">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </h3>
+        <ul class="navlist">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <ul>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="par">
+      <div class="main">
+        <h2>Simple<br />Web Design</h2>
+        <div>
+          <h5>
+            &mdash;&mdash; Lorem ipsum dolor sit amet<br />
+            adipisicing elit. Quam vita<br />
+            quidem ea fuga officia harum
+          </h5>
+
+          <button class="butto">Portfolio</button>
+        </div>
+      </div>
+
+      <div>
+        <img src="comp.jpg" height="300px" />
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+.div1{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  border-radius: 10px;
+}
+.li1{
+  list-style: none; 
+  padding: 20px;
+}
+.li1 :hover{
+  background-color: yellow;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.li2{
+  text-decoration: none;
+  color: white;
+}
+.list{
+  display: flex; list-style: none;
+}
+.list li{
+  padding: 20px;
+}
+.list1{
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+.list1:hover{
+  cursor: pointer;
+  background-color: yellow;
+  border-radius: 5px;
+}
